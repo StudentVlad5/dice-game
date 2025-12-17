@@ -61,7 +61,7 @@ export default function TopMainBar({
 
   const play = () => {
     if (number <= 0 || number >= 100) {
-      showToast({
+      return showToast({
         message: "Please select a number between 1 and 99",
         severity: "error",
         setSnackbar,
