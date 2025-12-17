@@ -21,7 +21,7 @@ export default function SnackbarBlock({
         severity={snackbar.severity}
         variant="filled"
         sx={{
-          minWidth: "600px",
+          // minWidth: "600px",
           display: "flex",
           alignItems: "center",
           "& .MuiAlert-message": {
