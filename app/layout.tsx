@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vash-sait.com"),
+  metadataBase: new URL("https://dice-game-navy-gamma.vercel.app/"),
 
   title: {
     default: "Dice Game | My Super Game",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dice Game",
     description: "Try to guess the number! Play for free online.",
-    url: "https://vash-sait.com",
+    url: "https://dice-game-navy-gamma.vercel.app/",
     siteName: "SuperGame EU",
     images: [
       {
