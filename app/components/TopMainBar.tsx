@@ -144,10 +144,6 @@ export default function TopMainBar({
       </RadioGroup>
 
       <Stack width="100%" spacing={1}>
-        <Stack direction="row" justifyContent="space-between">
-          <Typography variant="caption">0</Typography>
-          <Typography variant="caption">100</Typography>
-        </Stack>
         <Slider
           value={number}
           min={0}
@@ -156,6 +152,10 @@ export default function TopMainBar({
           onChange={(_, v) => setNumber(v as number)}
           valueLabelDisplay="auto"
         />
+        <Stack direction="row" justifyContent="space-between">
+          <Typography variant="caption">0</Typography>
+          <Typography variant="caption">100</Typography>
+        </Stack>
         <Typography textAlign="center" variant="h6">
           {over ? "Over" : "Under"} {number}
         </Typography>
